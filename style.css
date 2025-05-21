@@ -205,23 +205,28 @@ body {
   }
 }
 button {
-  padding: 10px 16px;
+  padding: 12px 20px;
   font-size: 16px;
-  background-color: #007BFF; /* Bootstrap Blue */
+  font-weight: bold;
+  background-color: #4CAF50; /* A rich green */
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0 5px #388E3C;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
+  transition: all 0.2s ease;
+  user-select: none;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #45a049;
 }
 
 button:active {
-  transform: scale(0.97);
+  box-shadow: 0 2px #2e7031;
+  transform: translateY(3px);
 }
+
 
 button:focus {
   outline: 2px solid #0056b3;
